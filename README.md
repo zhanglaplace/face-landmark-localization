@@ -3,6 +3,8 @@ This is a project predict face landmarks (68 points) and head pose (3d pose, yaw
 
 
 ## Install
+
+### Ubuntu
 - [caffe](https://github.com/BVLC/caffe)
 - [dlib face detector](http://dlib.net/)<p>
 you can down [dlib18.17](http://pan.baidu.com/s/1gey9Wd1) <p>
@@ -13,6 +15,9 @@ cd python_example<p>
 if using dlib18.18, you can follow the [official instruction](http://dlib.net/)
 - opencv<p>
 
+### Windows
+  using anaconda2 by command ‘conda install -c menpo dlib’
+  
 ## Usage
 
 - Command : python landmarkPredict.py predictImage  testList.txt<p>
